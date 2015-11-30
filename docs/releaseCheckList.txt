@@ -1,0 +1,25 @@
+# $Id: releaseCheckList.txt,v 1.1 2006/02/27 16:27:10 msuresh Exp $
+
+ 1. Review and update TODO comments in code.
+
+ 2. Ensure all printStackTrace go to loggers error stream.
+
+ 3. Update Documentation.
+
+ 4. Update Revision History.
+
+ 5. Remove test directory from javadocs.
+
+ 6. Add Copyright for new files.
+
+ 7. Remove unwanted System.out.println.
+
+ 8. Remove unwanted imports.
+
+ 9. Ensure no tabs, trailing spaces in new files.
+
+10. Convert all files to UNIX format.
+
+11. Remove any unwanted/renamed files.
+
+12. Remove any .bak files.
