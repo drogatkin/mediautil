@@ -1865,7 +1865,7 @@ public class Exif extends AbstractImageInfo<LLJTran> {
 			if (type == ASCII) {
 				// Special case: zero-terminated ASCII string
 				try {
-					ifd.addEntry(tag, new Entry(type, new String(data, offset, count - 1, "Default")));
+					ifd.addEntry(tag, new Entry(type, new String(data, offset, count, "Default")));
 				} catch (UnsupportedEncodingException e) {
 					if (Log.debugLevel >= Log.LEVEL_ERROR)
 						System.err.println("storeIFD: getString() " + e);
