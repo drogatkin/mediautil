@@ -60,12 +60,12 @@ Dmitriy Rogatkin (<a href=mailto:metricstream@gmail.com>metricstream@gmail.com</
 
 Suresh Mahalingam (<a href=mailto:msuresh@cheerful.com>msuresh@cheerful.com</a>)
 
-##License
+<h2>License</h2>
 
 MediaUtil is free to download, use, modify and redistribute for non-commercial and
 and commercial purposes without any warranties of course.
 
-## Other Projects of Suresh
+<h2>Other Projects of Suresh</h2>
 
 
 <a href=http://jdatestamp.sourceforge.net>Jdatestamp</a>: A Lossless Date
