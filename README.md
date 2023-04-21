@@ -2,7 +2,7 @@
 
 
 MediaUtil is an offshoot of the
-<a href=http://mediachest.sourceforge.net>MediaChest</a> Project to provide a
+<a href=https://github.com/drogatkin/MediaChest>MediaChest</a> Project to provide a
 well packaged Java API for Media Related Utilities.<p>
 
 Below is the Current API Offering from MediaUtil.<p>
@@ -27,7 +27,7 @@ Following are the key features:<p>
   <li>Does <b>not</b> Support Multi-Threading for the same Object to be
       used simultaneously by more than one thread. However different threads
       can have their own LLJTran Objects.
-  <li>Requires JDK 1.5
+  <li>Requires JDK 1.5 or better
 </ul>
 
 <H2>Documentation</H2>
@@ -51,16 +51,16 @@ Please inform if your project/product is using MediaUtil so that we can add it t
 the below list:<p>
 
 <ul>
-  <li><a href=http://mediachest.sourceforge.net>MediaChest</a>
+  <li><a href=https://github.com/drogatkin/MediaChest>MediaChest</a>
 </ul>
 
 <H2>Contact</H2>
 
-Dmitriy Rogatkin (<a href=mailto:metricstream@gmail.com>metricstream@gmail.com</a>)<p>
+[Dmitriy Rogatkin](mailto:metricstream@gmail.com)
 
-Suresh Mahalingam (<a href=mailto:msuresh@cheerful.com>msuresh@cheerful.com</a>)
+[Suresh Mahalingam](mailto:msuresh@cheerful.com)
 
-##License
+## License
 
 MediaUtil is free to download, use, modify and redistribute for non-commercial and
 and commercial purposes without any warranties of course.
