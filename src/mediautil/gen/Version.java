@@ -40,5 +40,5 @@ public interface Version {
 	public static final int LOAD = 1;
 
 	/** Additional status comment */
-	public static final String COMMENT = "beta";
+	public static final String COMMENT = "final";
 }
