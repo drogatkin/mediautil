@@ -23,11 +23,11 @@ Following are the key features:<p>
   <li> Built-in transformation of Thumbnail and Orientation marker
   <li> Supports the IterativeReader and IterativeWriter interfaces in
        MediaUtil's mediautil.gen.directio package enabling things like Sharing
-       the jpeg input file with say jkd's ImageReader while reading
+       the jpeg input file with say jdk's ImageReader while reading
   <li>Does <b>not</b> Support Multi-Threading for the same Object to be
       used simultaneously by more than one thread. However different threads
       can have their own LLJTran Objects.
-  <li>Requires JDK 1.5 or better
+  <li>Requires JDK 8 or better
 </ul>
 
 <H2>Documentation</H2>
