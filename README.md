@@ -1,60 +1,60 @@
 # MediaUtil - A Java API Package for Media Related Utilities
 
-
+## Purpose
 MediaUtil is an offshoot of the
-<a href=https://github.com/drogatkin/MediaChest>MediaChest</a> Project to provide a
-well packaged Java API for Media Related Utilities.<p>
+[MediaChest](https://github.com/drogatkin/MediaChest) project to provide a
+well packaged Java API for Media Related Utilities.
 
-Below is the Current API Offering from MediaUtil.<p>
+## API
+Below is the Current API Offering from MediaUtil.
 
-<H2>LLJTran</H2>
+### LLJTran
 
 LLJTran is an API for performing Lossless Transformations on JPEG image files
 which also provides the Capability of handling Exif information.
 
-Following are the key features:<p>
+Following are the key features:
 
-<ul>
-  <li> Supports lossless rotation, transpose, transverse and crop
-  <li> Trimming or relocating Non Transformable edge blocks similiar to
-  <a target=_blank href="http://www.ijg.org">jpegtran</a> or processing them
+- Supports lossless rotation, transpose, transverse and crop
+- Trimming or relocating Non Transformable edge blocks similiar to [jpegtran](http://www.ijg.org)
+   or processing them
   like regular MCU blocks.
-  <li> Reading and Modifying Image Header Information (Exif) including Thumbnail
-  <li> Built-in transformation of Thumbnail and Orientation marker
-  <li> Supports the IterativeReader and IterativeWriter interfaces in
+- Reading and Modifying Image Header Information (Exif) including Thumbnail
+- Built-in transformation of Thumbnail and Orientation marker
+- Supports the IterativeReader and IterativeWriter interfaces in
        MediaUtil's mediautil.gen.directio package enabling things like Sharing
        the jpeg input file with say jdk's ImageReader while reading
-  <li>Does <b>not</b> Support Multi-Threading for the same Object to be
+- Does <b>not</b> Support Multi-Threading for the same Object to be
       used simultaneously by more than one thread. However different threads
       can have their own LLJTran Objects.
-  <li>Requires JDK 8 or better
-</ul>
+- Requires JDK 8 or better
 
-<H2>Documentation</H2>
 
-To use
-<a href="http://sourceforge.net/project/showfiles.php?group_id=35208&package_id=165212&release_id=360314">
-Download mediautil-1.0.zip</a> and extract it to a suitable folder. Then
-include the mediautil-1.0.jar file in your CLASSPATH. The download also includes
-source under the src directory and documentation including javadocs under the
-docs directory.<p>
+# Documentation
+
+To use,
+download [mediautil-1.2.zip](https://github.com/drogatkin/mediautil/releases/tag/v1.2) and unzip is some folder. Then
+include the mediautil-1.2.jar file in your CLASSPATH. The download also includes
+source under the *src* directory and documentation including javadocs under the
+docs directory.
+
+## Getting Started
 
 For Getting Started please see
-<a href=tutorials/LLJTran/LLJTranTutorial.java>LLJTranTutorial.java</a> which is a
-tutorial with different usage examples.<p>
+[LLJTranTutorial.java](https://github.com/drogatkin/mediautil/blob/master/docs/tutorials/LLJTran/LLJTranTutorial.java) which is a
+tutorial with different usage examples.
 
-For API reference please see the <a href=javadocs/index.html>Javadocs</a>.
+For API reference please see the [Javadocs](javadocs/index.html).
 
-<H2>Projects using the MediaUtil API</H2>
+## Projects using the MediaUtil API
 
 Please inform if your project/product is using MediaUtil so that we can add it to
 the below list:<p>
 
-<ul>
-  <li><a href=https://github.com/drogatkin/MediaChest>MediaChest</a>
-</ul>
+- [javadocs/index.html](https://github.com/drogatkin/MediaChest>MediaChest)
 
-<H2>Contact</H2>
+
+## Contact
 
 [Dmitriy Rogatkin](mailto:metricstream@gmail.com)
 
@@ -67,8 +67,7 @@ and commercial purposes without any warranties of course.
 
 ## Other Projects of Suresh
 
-
-<a href=http://jdatestamp.sourceforge.net>Jdatestamp</a>: A Lossless Date
+* [Jdatestamp](http://jdatestamp.sourceforge.net): A Lossless Date
 Stamper for Digital Pictures
 
 
